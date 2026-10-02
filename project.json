@@ -1,0 +1,21 @@
+{
+  "id": 812,
+  "title": "Indoor Mapping Drone Obstacle Avoidance",
+  "repository_slug": "indoor-mapping-drone-obstacle-avoidance",
+  "category": "Drones",
+  "platform": "Jetson Orin Nano",
+  "platform_family": "python",
+  "difficulty": "Intermediate",
+  "estimated_hours": 28,
+  "connectivity": "LTE",
+  "components": [
+    "optical flow sensor",
+    "battery monitor",
+    "IMU"
+  ],
+  "scope": "Build a drones prototype that uses optical flow sensor, battery monitor, IMU to avoid nearby obstacles during slow flight. Include setup instructions, a circuit diagram, tested firmware, and sample output.",
+  "key_deliverable": "Obstacle Avoidance demonstration with repeatable test steps",
+  "mode": "interactive_monitor",
+  "entrypoint": "src/main.py",
+  "roadmap_source": "openmaker-2100-project-roadmap.xlsx"
+}
